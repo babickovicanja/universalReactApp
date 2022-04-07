@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-background {
+  background-image: url(../../public/images/login-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  padding: 20px;
+}
+
+.login-form-container {
+  margin: auto;
+  padding: 40px;
+  width: 90%;
+  max-width: 650px;
+  background: #FFFFFF95;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-text-container {
+  width: 100%;
+  max-width: 450px;
+  margin: 10px 0;
+}
+
+.login-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 19px;
+  color: #010101;
+  text-align: left;
+}
+
+.login-form {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.login-form input {
+  min-width: 180px;
+  width: 100%;
+  max-width: 450px;
+  margin: 15px 0;
+  padding: 10px 0;
+}
+
+.input-email::placeholder, .input-password::placeholder {
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #93949D;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+}
+
+.input-password {
+  width: 100%;
+}
+
+.input-password-img {
+  width: 0;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.login-form a {
+  min-width: 180px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.submit-button {
+  display: block;
+  min-width: 180px;
+  width: 100%;
+  max-width: 450px;
+  margin: 15px 0;
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #3372ED 0%, #1138C2 100%);
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-logo {
+  width: 100%;
+  max-width: 250px;;
+  padding: 10px;
+}
